@@ -51,6 +51,7 @@ there are definitely some properties you should add!*/
     }
     nav {
         float: left;
+        display: block;
     }
     nav ul {
         padding: ;
@@ -71,16 +72,19 @@ there are definitely some properties you should add!*/
         color: ;
     }
     #randoLink {
+      width: 100%;
       padding: 100px;
       align-self: auto;
-      padding-left: 150px;
+      
       padding-top: 100px;
+      text-align: center;
+      margin: auto;
 
 
     }
 
     section {
-        width: 73%;
+        width: 100%;
         display: inline-block;
         float: left;
     }
@@ -90,6 +94,9 @@ there are definitely some properties you should add!*/
         background-color:;
         padding:;
         min-height: 100%;
+    }
+    article {
+      width: 100%;
     }
 
     aside ul {
